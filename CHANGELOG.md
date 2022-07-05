@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2] - 05.07.2022
+
+### Fix
+
+- Omit `config` prop in answers field of the `data` of the `CheckAnswersFunction`
+
 ## [1.0.1] - 30.06.2022
 
 ### Fix
