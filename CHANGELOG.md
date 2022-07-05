@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0] - 05.07.2022
+
+### Add
+
+- Add `PublishQuizeeFunction` type
+
 ## [1.0.2] - 05.07.2022
 
 ### Fix
