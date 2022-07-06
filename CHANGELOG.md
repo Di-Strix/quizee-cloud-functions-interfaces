@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.0] - 06.07.2022
+
+# Change
+
+- Export set of namespaces with args, return type and function instead of just function type
+
+# Fix
+
+- Add `publishQuizee` to `QuizeeCloudFunction` type
+
 ## [1.1.0] - 05.07.2022
 
 ### Add
