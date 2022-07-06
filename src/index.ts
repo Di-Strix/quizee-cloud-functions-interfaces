@@ -2,6 +2,20 @@ import { Answer, Quiz, QuizId, QuizInfo } from '@di-strix/quizee-types';
 
 export type QuizeeCloudFunction = 'getQuizeeList' | 'checkAnswers' | 'publishQuizee';
 
-export type GetQuizeeListFunction = () => Promise<QuizInfo[]>;
-export type CheckAnswersFunction = (data: { answers: Omit<Answer, 'config'>[]; quizId: QuizId }) => Promise<number>;
-export type PublishQuizeeFunction = (data: Quiz) => Promise<{ quizId: string }>;
+export namespace getQuizeeList {
+  export type ReturnType = Promise<QuizInfo[]>;
+  export type Args = [];
+  export type Function = (...args: Args) => ReturnType;
+}
+
+export namespace checkAnswers {
+  export type ReturnType = Promise<number>;
+  export type Args = [{ answers: Omit<Answer, 'config'>[]; quizId: QuizId }];
+  export type Function = (...args: Args) => ReturnType;
+}
+
+export namespace PublishQuizee {
+  export type ReturnType = Promise<{ quizId: string }>;
+  export type Args = [Quiz];
+  export type Function = (...args: Args) => ReturnType;
+}
