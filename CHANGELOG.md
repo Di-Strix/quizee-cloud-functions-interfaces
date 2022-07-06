@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.1] - 06.07.2022
+
+### Fix
+
+- Rename namespaces
+
 ## [2.0.0] - 06.07.2022
 
 ### Change
