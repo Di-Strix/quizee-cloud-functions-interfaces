@@ -19,3 +19,15 @@ export namespace PublishQuizee {
   export type Args = [Quiz];
   export type Function = (...args: Args) => ReturnType;
 }
+
+export namespace GetFullQuizee {
+  export type ReturnType = Promise<Quiz>;
+  export type Args = [QuizId];
+  export type Function = (...args: Args) => ReturnType;
+}
+
+export namespace GetPublicQuizee {
+  export type ReturnType = Promise<Omit<Quiz, 'answers'>>;
+  export type Args = [QuizId];
+  export type Function = (...args: Args) => ReturnType;
+}
