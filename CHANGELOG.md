@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0] - 13.10.2022
+
+### Add
+
+- Define `GetFullQuizee` cloud function
+- Define `GetPublicQuizee` cloud function
+
 ## [2.0.1] - 06.07.2022
 
 ### Fix
