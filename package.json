@@ -1,6 +1,6 @@
 {
   "name": "@di-strix/quizee-cloud-functions-interfaces",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Set of interfaces for interacting with quizee cloud functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
