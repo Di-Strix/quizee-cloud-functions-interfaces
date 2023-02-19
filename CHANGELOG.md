@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.0] - 20.02.2023
+
+### Change
+
+- `ReturnType` now specifies base return type (without being covered in `Promise`, etc...)
+- `Args` are replaced with single `Arg` and represents a type of first and the only argument
+- Functions take only one argument which is of type `Arg`
+- Function return type is now `Promise<ReturnType>`
+
 ## [2.2.1] - 13.10.2022
 
 ### Fix
