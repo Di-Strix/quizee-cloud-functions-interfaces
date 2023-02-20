@@ -4,7 +4,7 @@ export type QuizeeCloudFunction = 'getQuizeeList' | 'checkAnswers' | 'publishQui
 
 export namespace GetQuizeeList {
   export type ReturnType = QuizInfo[];
-  export type Arg = undefined;
+  export type Arg = never;
   export type Function = (arg_0: Arg) => Promise<ReturnType>;
 }
 
