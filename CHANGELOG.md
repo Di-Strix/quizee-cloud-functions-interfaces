@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1] - 20.02.2023
+
+### Fix
+
+- Fix return type of `GetFullQuizee`
+- Change arg of `GetQuizeeList` to `undefined` instead of `never` to make it "optional"
+
 ## [3.0.0] - 20.02.2023
 
 ### Change
