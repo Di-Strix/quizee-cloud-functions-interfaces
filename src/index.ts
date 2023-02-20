@@ -21,7 +21,7 @@ export namespace PublishQuizee {
 }
 
 export namespace GetFullQuizee {
-  export type ReturnType = Promise<Quiz>;
+  export type ReturnType = Quiz;
   export type Arg = QuizId;
   export type Function = (arg_0: Arg) => Promise<ReturnType>;
 }
