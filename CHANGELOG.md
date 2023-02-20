@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.0.2] - 20.02.2023
+
+### Fix
+
+- Revert arg of `GetQuizeeList` to `never` since `undefined` makes no sense
+
 ## [3.0.1] - 20.02.2023
 
 ### Fix
